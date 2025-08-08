@@ -3,6 +3,9 @@ languageCode = 'en-GB'
 title = 'Joe White - Resume'
 theme = 'hugo-resume'
 
+[author]
+  name = 'Joe White'
+  homepage = 'https://joewhite.dev'
 
 [params]
 # Personal Information
@@ -13,7 +16,8 @@ lastName = "White"
 phone = "+447467438927"
 profileImage = "img/mugShot.jpg"  # Place in static/img/
 favicon = "/favicon.ico"
-
+# Sections to display (in order)
+sections = ["experience", "education"]
 
 # Social Media Handles
 [[params.handles]]
@@ -26,8 +30,7 @@ showContact = true          # Show contact section
 showCertifications = true  # Show certifications
 showSocializations = true  # Show social media links
 
-# Sections to display (in order)
-sections = ["skills", "experience", "education"]
+
 
 # Code highlighting settings
 enableGitInfo = false
