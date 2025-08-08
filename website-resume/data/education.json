@@ -1,0 +1,16 @@
+[
+    {
+        "school":"Manchester Metropolitan University",
+        "degree":"Bachelor of Science",
+        "major":"Software Engineering",
+        "notes":"First Class Honours",
+        "range":"2015 - 2018"
+    },
+    {
+        "school":"Cardinal Newman College, Preston",
+        "degree":"A-Levels",
+        "major":"Computing (C), Maths (D), Physics (D)",
+        "notes":"CDD",
+        "range":"2013 - 2015"
+    }
+]

@@ -1,0 +1,113 @@
+/* Custom Color Scheme Override */
+/* Replace the default orange (#BD5D38) with your preferred colors */
+
+:root {
+  /* Define your color palette */
+  --primary-color: #3498db;      /* Blue - professional blue color */
+  --primary-hover: #2980b9;      /* Darker blue for hover states */
+  --text-dark: #2c3e50;          /* Dark text color */
+  --text-light: #6c757d;         /* Light text color */
+  --border-color: #dee2e6;       /* Border color */
+}
+
+/* Primary background color */
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+/* Primary text color */
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+/* Links */
+a {
+  color: var(--primary-color);
+}
+
+a:hover, a:focus, a:active {
+  color: var(--primary-hover);
+}
+
+/* Social icons hover */
+.list-social-icons a:hover {
+  color: var(--primary-color);
+}
+
+/* Skill icons hover */
+.list-icons .list-inline-item i:hover {
+  color: var(--primary-color);
+}
+
+/* Blockquote border */
+.resume-section blockquote {
+  border-left: 4px solid var(--primary-color);
+}
+
+/* Tag hover effect */
+.tag:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.tag:hover::after {
+  border-left-color: var(--primary-color);
+}
+
+/* Optional: Customize other elements */
+/* 
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-dark);
+}
+
+body {
+  color: var(--text-light);
+}
+*/
+
+/* .two-columns {
+  columns: 2;
+  column-gap: 2rem;
+  column-fill: balance;
+} */
+
+/* Simple side-by-side columns */
+.flex-columns {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 3rem !important;
+  align-items: flex-start !important;
+}
+
+.flex-columns > div {
+  flex: 1 1 50% !important;
+  min-width: 0 !important;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .flex-columns {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+}
+
+/* Skills table with vertical divider */
+.resume-section table {
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+}
+
+.resume-section table td:first-child {
+  border-right: 2px solid var(--text-light) !important;
+  padding-right: 1.5rem !important;
+}
+
+.resume-section table td:last-child {
+  padding-left: 1.5rem !important;
+}
+
+.resume-section table td {
+  border: none !important;
+  vertical-align: top !important;
+}
