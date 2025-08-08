@@ -1,20 +1,20 @@
 [
     {
-        "role":"Boss man",
-        "company":"Current Company LTD",
-        "summary":"Led in development of fast paced software teams.\n- list\n   - of\n- things",
-        "range":"February 2016 - Present"
+        "role":"Platform Engineer",
+        "company":"Flutter UKI",
+        "summary":"Worked within the Infrastructure Tribe to design, host, and support both in-house and vendor software solutions across a multi-cloud environment (on-prem and AWS). Specialised in observability, playing a key role in delivering and standardising a scalable observability platform for the UK &amp; Ireland division.",
+        "range":"February 2022 - Present"
     },
     {
         "role":"Developer",
-        "company":"Current Company LTD",
-        "summary":"Expedited the synergies of collaborative agile tooling.",
-        "range":"March 2014 - February 2016"
+        "company":"BAE Systems Applied Intelligence",
+        "summary":"Progressed from Graduate Junior Developer to Second Line Support Engineer, and ultimately to Platform Engineer (SRE focus), and specialised in reliability engineering.",
+        "range":"October 2018 - May 2022"
     },
     {
-        "role":"Developer",
-        "company":"Previous Company Inc.",
-        "summary":"Implemented continuous devops pipelines automationing",
-        "range":"February 2013 - March 2014"
+        "role":"Junior Developer",
+        "company":"Legacy IT (Part-time)",
+        "summary":"Supported a privately-owned start-up in the enterprise IT space while completing a degree in software engineering. Contributed to internal tooling development and assisted with scraping websites for missing terms and broken links, using scripting languages such as Python.",
+        "range":"May 2016 - May 2018"
     }
 ]
