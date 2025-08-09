@@ -36,7 +36,7 @@ sections = ["skills", "experience", "education"]
 
 # Display Options
 # showQr = true               # Show QR code for contact info
-showContact = true          # Show contact section
+showContact = false          # Show contact section
 showCertifications = true  # Show certifications
 showSocializations = true  # Show social media links
 
