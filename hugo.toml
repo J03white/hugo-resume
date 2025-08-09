@@ -18,7 +18,7 @@ profileImage = "img/mugShot.jpg"  # Place in static/img/
 favicon = "/favicon.ico"
 
 # Display Options
-showContact = true          # Show contact section
+showContact = false          # Show contact section
 showCertifications = false  # Show certifications
 showSocializations = true  # Show social media links
 
