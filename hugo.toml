@@ -1,4 +1,4 @@
-baseURL = 'https://j03wh1t3.com'
+baseURL = 'https://j03white.github.io/hugo-resume/'
 languageCode = 'en-GB'
 title = 'Joe White - Resume'
 theme = 'hugo-resume'
