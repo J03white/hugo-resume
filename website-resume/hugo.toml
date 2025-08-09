@@ -1,11 +1,11 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://j03wh1t3.com'
 languageCode = 'en-GB'
 title = 'Joe White - Resume'
 theme = 'hugo-resume'
 
 [author]
   name = 'Joe White'
-  homepage = 'https://joewhite.dev'
+  homepage = '/about'
 
 [params]
 # Personal Information
@@ -16,6 +16,12 @@ lastName = "White"
 phone = "+447467438927"
 profileImage = "img/mugShot.jpg"  # Place in static/img/
 favicon = "/favicon.ico"
+
+# Display Options
+showContact = true          # Show contact section
+showCertifications = false  # Show certifications
+showSocializations = true  # Show social media links
+
 # Sections to display (in order)
 sections = ["skills", "experience", "education"]
 
@@ -23,6 +29,10 @@ sections = ["skills", "experience", "education"]
 [[params.handles]]
     name = "LinkedIn"
     link = "https://www.linkedin.com/in/joe-white-aba9a1202/"
+
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/J03white"
 
 # Display Options
 # showQr = true               # Show QR code for contact info
@@ -38,4 +48,8 @@ enableGitInfo = false
 # Required output formats
 [outputs]
 home = ["HTML", "JSON"]
+
+# Required taxonomies
+[taxonomies]
+tag = "tags"
 
