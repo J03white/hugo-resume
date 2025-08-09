@@ -17,7 +17,7 @@ phone = "+447467438927"
 profileImage = "img/mugShot.jpg"  # Place in static/img/
 favicon = "/favicon.ico"
 # Sections to display (in order)
-sections = ["experience", "education"]
+sections = ["skills", "experience", "education"]
 
 # Social Media Handles
 [[params.handles]]
@@ -39,6 +39,3 @@ enableGitInfo = false
 [outputs]
 home = ["HTML", "JSON"]
 
-# Required taxonomies
-[taxonomies]
-tag = "tags"

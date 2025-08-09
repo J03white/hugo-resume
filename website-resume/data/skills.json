@@ -1,1 +1,87 @@
-[]
+[
+  {
+    "grouping": "Programming Languages",
+    "skills": [
+      {"name": "Go", "link": "https://golang.org"},
+      {"name": "Python", "link": "https://python.org"},
+      {"name": "TypeScript", "link": "https://www.typescriptlang.org"},
+      {"name": "JavaScript", "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"},
+      {"name": "Node.js", "link": "https://nodejs.org"},
+      "Bash",
+      "SQL"
+    ]
+  },
+  {
+    "grouping": "Cloud Platforms & Services",
+    "skills": [
+      {"name": "AWS", "link": "https://aws.amazon.com", "icon": "aws"},
+      {"name": "Google Cloud Platform", "link": "https://cloud.google.com"},
+      {"name": "Azure", "link": "https://azure.microsoft.com", "icon": "microsoft"}
+    ]
+  },
+  {
+    "grouping": "Container & Orchestration",
+    "skills": [
+      {"name": "Docker", "link": "https://docker.com", "icon": "docker"},
+      {"name": "Kubernetes", "link": "https://kubernetes.io"},
+      {"name": "Helm", "link": "https://helm.sh"},
+      "EKS"
+    ]
+  },
+  {
+    "grouping": "Infrastructure as Code & Automation",
+    "skills": [
+      {"name": "Terraform", "link": "https://terraform.io"},
+      {"name": "AWS CDK", "link": "https://aws.amazon.com/cdk"},
+      {"name": "Ansible", "link": "https://ansible.com"},
+      {"name": "Chef", "link": "https://chef.io"},
+      "CloudFormation"
+    ]
+  },
+  {
+    "grouping": "CI/CD & DevOps",
+    "skills": [
+      {"name": "GitHub Actions", "link": "https://github.com/features/actions", "icon": "github"},
+      {"name": "GitLab CI", "link": "https://docs.gitlab.com/ee/ci"},
+      {"name": "Jenkins", "link": "https://jenkins.io"},
+      {"name": "AWS CodePipeline", "link": "https://aws.amazon.com/codepipeline"},
+      "Git", "GitOps"
+    ]
+  },
+  {
+    "grouping": "Observability & Monitoring",
+    "skills": [
+      {"name": "Splunk", "link": "https://splunk.com"},
+      {"name": "OpenTelemetry", "link": "https://opentelemetry.io"},
+      {"name": "Prometheus", "link": "https://prometheus.io"},
+      {"name": "Grafana", "link": "https://grafana.com"},
+      {"name": "Elasticsearch", "link": "https://www.elastic.co/elasticsearch/"},
+      "APM", "RUM", "Synthetic Monitoring"
+    ]
+  },
+  {
+    "grouping": "Security & Secrets Management",
+    "skills": [
+      {"name": "HashiCorp Vault", "link": "https://vaultproject.io"},
+      {"name": "AWS Secrets Manager", "link": "https://aws.amazon.com/secrets-manager"},
+      "IAM", "RBAC", "Secret Rotation", "Zero Trust"
+    ]
+  },
+  {
+    "grouping": "Web Development",
+    "skills": [
+      {"name": "React", "link": "https://react.dev", "icon": "react"},
+      {"name": "React Native", "link": "https://reactnative.dev"},
+      {"name": "Hugo", "link": "https://gohugo.io"}
+    ]
+  },
+  {
+    "grouping": "Operating Systems & Tools",
+    "skills": [
+      {"name": "Linux", "link": "https://kernel.org", "icon": "linux"},
+      {"name": "Ubuntu", "icon": "ubuntu"},
+      {"name": "CentOS", "icon": "centos"},
+      "Windows Server", "VMware"
+    ]
+  }
+]

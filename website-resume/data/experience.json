@@ -2,19 +2,50 @@
     {
         "role":"Platform Engineer",
         "company":"Flutter UKI",
-        "summary":"Worked within the Infrastructure Tribe to design, host, and support both in-house and vendor software solutions across a multi-cloud environment (on-prem and AWS). Specialised in observability, playing a key role in delivering and standardising a scalable observability platform for the UK &amp; Ireland division.",
-        "range":"February 2022 - Present"
+        "summary":"Worked within the Infrastructure Tribe to design, host, and support both in-house and vendor software solutions across a multi-cloud environment (on-prem and AWS). Specialised in observability, playing a key role in delivering and standardising a scalable observability platform for the UK & Ireland division.",
+        "range":"February 2022 - Present",
+        "details": [
+            "Worked within the Infrastructure Tribe to design, host, and support both in-house and vendor software solutions across a multi-cloud environment (on-prem and AWS).",
+            {
+                "text": "Specialised in observability, playing a key role in delivering and standardising a scalable observability platform for the UK & Ireland division.",
+                "subpoints": [
+                    "Supported the Splunk Cloud Observability platform, spanning Splunk Enterprise (on-prem), self-hosted heavy forwarders, Open Telemetry metric gateways, and Splunk Cloud. Collecting logs, metrics, APM, RUM and synthetics from thousands of hosts in a multi-cloud environment.",
+                    "Spearheaded an automation metric management solution that reduced dropped data points by 97.8% (from 1.6 billion).",
+                    "Decommissioned the legacy Elastic observability stack for the SBG brand.",
+                    "Successfully standardised observability practices using Open Telemetry, which significantly improved data consistency and platform usability.",
+                    "Led in-house technical events and presentations with internal stakeholders and vendors to drive observability adoption. This included onboarding teams across all our European offices."
+                ]
+            },
+            "Engineered and administered HashiCorp Vault for enterprise-grade secrets management, automating secret rotation, enforcing access policies, and integrating with CI/CD workflows.",
+            "Lead platform reliability, automation, and CI/CD to improve deployment speed and increase system resilience.",
+            "Managed CI/CD pipelines using Ansible, Terraform, and AWS CDK for a range of infrastructure tasks (e.g. deploying Open Telemetry agents, provisioning UI resources, and managing EKS clusters).",
+            "Advocated for self-service tooling, building reusable infrastructure templates to support faster onboarding and improved platform governance.",
+            "Deployed and maintained applications on Kubernetes clusters using Helm charts.",
+            "Championed user and support documentation.",
+            "Technologies: AWS, Splunk, Elasticsearch, HashiCorp Vault, Kubernetes, Golang, Python, Ansible, Chef, GitHub, GitLab, Jenkins"
+        ]
     },
     {
-        "role":"Developer",
+        "role":"Software Engineer / Platform Engineer",
         "company":"BAE Systems Applied Intelligence",
-        "summary":"Progressed from Graduate Junior Developer to Second Line Support Engineer, and ultimately to Platform Engineer (SRE focus), and specialised in reliability engineering.",
-        "range":"October 2018 - May 2022"
+        "summary":"The digital and cyber security division of BAE Systems delivers advanced solutions in cyber defence, data analytics, and secure systems engineering, supporting government and commercial clients. Progressed from Graduate Junior Developer to Second Line Support Engineer, and ultimately to Platform Engineer (SRE focus), and specialised in reliability engineering.",
+        "range":"October 2018 - May 2022",
+        "details": [
+            "Worked across a variety of high-impact projects, gaining hands-on experience with cloud infrastructure, observability tooling, and automation.",
+            "Regularly represented the company in client-facing meetings and multi-vendor collaboration calls, particularly during high-severity incident resolution and service restoration efforts.",
+            "Drove improvements in system reliability, implemented monitoring solutions, and championed incident response best practices.",
+            "Contributed actively to Agile ceremonies, offering innovative and constructive input.",
+            "Designed and presented technical solutions and architectural proposals to clients.",
+            "Supported 24/7 live production environments for high-profile clients (+100k users), including participation in on-call rotations.",
+            "Introduced and championed Accelerate metrics to benchmark and improve team delivery performance.",
+            "Designed and implemented CI/CD pipelines to enhance deployment automation and service reliability.",
+            "Technologies: AWS, Azure, Node.js, Elasticsearch, Kibana, Jenkins, Terraform, Shell Scripting, PowerShell"
+        ]
     },
     {
-        "role":"Junior Developer",
-        "company":"Legacy IT (Part-time)",
-        "summary":"Supported a privately-owned start-up in the enterprise IT space while completing a degree in software engineering. Contributed to internal tooling development and assisted with scraping websites for missing terms and broken links, using scripting languages such as Python.",
+        "role":"Junior Developer (Part-time)",
+        "company":"Legacy IT",
+        "summary":"Supported a privately-owned start-up in the enterprise IT space while completing a degree in software engineering. Contributed to internal tooling development and assisted with scraping websites for missing terms and broken links,using scripting languages such as Python.",
         "range":"May 2016 - May 2018"
     }
 ]
