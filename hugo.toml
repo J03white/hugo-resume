@@ -34,14 +34,6 @@ sections = ["skills", "experience", "education"]
     name = "GitHub"
     link = "https://github.com/J03white"
 
-# Display Options
-# showQr = true               # Show QR code for contact info
-showContact = false          # Show contact section
-showCertifications = true  # Show certifications
-showSocializations = true  # Show social media links
-
-
-
 # Code highlighting settings
 enableGitInfo = false
 
